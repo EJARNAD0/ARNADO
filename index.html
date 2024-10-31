@@ -14,67 +14,67 @@
             background-color: #f0f0f0;
         }
         svg {
-            width: 200px;
-            height: 300px;
+            width: 400px;
+            height: 500px;
             border: 5px solid #f2a59d;
             background-color: white;
         }
     </style>
 </head>
 <body>
-    <svg viewBox="0 0 200 300">
-        <!-- Zigzag Pattern with More Rows -->
-        <polygon points="0,40 20,20 40,40 60,20 80,40 100,20 120,40 140,20 160,40 180,20 200,40 200,60 0,60"
-            fill="#ff4d4d" />
-        <polygon points="0,60 20,40 40,60 60,40 80,60 100,40 120,60 140,40 160,60 180,40 200,60 200,80 0,80"
-            fill="#ffcc00" />
-        <polygon points="0,80 20,60 40,80 60,60 80,80 100,60 120,80 140,60 160,80 180,60 200,80 200,100 0,100"
-            fill="#00cc99" />
-        <polygon points="0,100 20,80 40,100 60,80 80,100 100,80 120,100 140,80 160,100 180,80 200,100 200,120 0,120"
-            fill="#ff4d4d" />
-        <polygon points="0,120 20,100 40,120 60,100 80,120 100,100 120,120 140,100 160,120 180,100 200,120 200,140 0,140"
-            fill="#ffcc00" />
-        <polygon points="0,140 20,120 40,140 60,120 80,140 100,120 120,140 140,120 160,140 180,120 200,140 200,160 0,160"
-            fill="#00cc99" />
-        <polygon points="0,160 20,140 40,160 60,140 80,160 100,140 120,160 140,140 160,160 180,140 200,160 200,180 0,180"
-            fill="#ff4d4d" />
-        <polygon points="0,180 20,160 40,180 60,160 80,180 100,160 120,180 140,160 160,180 180,160 200,180 200,200 0,200"
-            fill="#ffcc00" />
-        <polygon points="0,200 20,180 40,200 60,180 80,200 100,180 120,200 140,180 160,200 180,180 200,200 200,220 0,220"
-            fill="#00cc99" />
-        <polygon points="0,220 20,200 40,220 60,200 80,220 100,200 120,220 140,200 160,220 180,200 200,220 200,240 0,240"
-            fill="#ff4d4d" />
-        <polygon points="0,240 20,220 40,240 60,220 80,240 100,220 120,240 140,220 160,240 180,220 200,240 200,260 0,260"
-            fill="#ffcc00" />
-        <polygon points="0,260 20,240 40,260 60,240 80,260 100,240 120,260 140,240 160,260 180,240 200,260 200,280 0,280"
-            fill="#00cc99" />
+    <svg viewBox="0 0 400 500">
+        <!-- Zigzag Pattern (more columns) -->
+        <polygon points="0,40 20,20 40,40 60,20 80,40 100,20 120,40 140,20 160,40 180,20 200,40 220,20 240,40 260,20 280,40 300,20 320,40 340,20 360,40 380,20 400,40 400,60 0,60" fill="#ff4d4d" />
+        <polygon points="0,60 20,40 40,60 60,40 80,60 100,40 120,60 140,40 160,60 180,40 200,60 220,40 240,60 260,40 280,60 300,40 320,60 340,40 360,60 380,40 400,60 400,80 0,80" fill="#ffcc00" />
+        <polygon points="0,100 20,80 40,100 60,80 80,100 100,80 120,100 140,80 160,100 180,80 200,100 220,80 240,100 260,80 280,100 300,80 320,100 340,80 360,100 380,80 400,100 400,120 0,120" fill="#00cc99" />
 
-        <!-- Ellipse Pattern with More Rows -->
-        <ellipse cx="30" cy="50" rx="10" ry="20" fill="#b3aaa3" />
-        <ellipse cx="70" cy="50" rx="10" ry="20" fill="#b3aaa3" />
-        <ellipse cx="110" cy="50" rx="10" ry="20" fill="#b3aaa3" />
-        <ellipse cx="150" cy="50" rx="10" ry="20" fill="#b3aaa3" />
-        <ellipse cx="190" cy="50" rx="10" ry="20" fill="#b3aaa3" />
+        <!-- Additional Rows of Zigzag to Cover Space -->
+        <polygon points="0,140 20,120 40,140 60,120 80,140 100,120 120,140 140,120 160,140 180,120 200,140 220,120 240,140 260,120 280,140 300,120 320,140 340,120 360,140 380,120 400,140 400,160 0,160" fill="#ff4d4d" />
+        <polygon points="0,160 20,140 40,160 60,140 80,160 100,140 120,160 140,140 160,160 180,140 200,160 220,140 240,160 260,140 280,160 300,140 320,160 340,140 360,160 380,140 400,160 400,180 0,180" fill="#ffcc00" />
+        <polygon points="0,180 20,160 40,180 60,160 80,180 100,160 120,180 140,160 160,180 180,160 200,180 220,160 240,180 260,160 280,180 300,160 320,180 340,160 360,180 380,160 400,180 400,200 0,200" fill="#00cc99" />
+
+        <!-- Patterns of Circles, Lines, Rectangles in Rows and Columns -->
+        <!-- Row of Circle and Line -->
+        <circle cx="30" cy="230" r="10" fill="#7b68ee" />
+        <line x1="20" y1="240" x2="40" y2="240" stroke="#7b68ee" stroke-width="2" />
         
-        <ellipse cx="30" cy="110" rx="10" ry="20" fill="#b3aaa3" />
-        <ellipse cx="70" cy="110" rx="10" ry="20" fill="#b3aaa3" />
-        <ellipse cx="110" cy="110" rx="10" ry="20" fill="#b3aaa3" />
-        <ellipse cx="150" cy="110" rx="10" ry="20" fill="#b3aaa3" />
-        <ellipse cx="190" cy="110" rx="10" ry="20" fill="#b3aaa3" />
-        
-        <ellipse cx="30" cy="170" rx="10" ry="20" fill="#b3aaa3" />
-        <ellipse cx="70" cy="170" rx="10" ry="20" fill="#b3aaa3" />
-        <ellipse cx="110" cy="170" rx="10" ry="20" fill="#b3aaa3" />
-        <ellipse cx="150" cy="170" rx="10" ry="20" fill="#b3aaa3" />
-        <ellipse cx="190" cy="170" rx="10" ry="20" fill="#b3aaa3" />
-        
-        <ellipse cx="30" cy="230" rx="10" ry="20" fill="#b3aaa3" />
-        <ellipse cx="70" cy="230" rx="10" ry="20" fill="#b3aaa3" />
-        <ellipse cx="110" cy="230" rx="10" ry="20" fill="#b3aaa3" />
-        <ellipse cx="150" cy="230" rx="10" ry="20" fill="#b3aaa3" />
-        <ellipse cx="190" cy="230" rx="10" ry="20" fill="#b3aaa3" />
-        
-     
+        <circle cx="90" cy="230" r="10" fill="#7b68ee" />
+        <line x1="80" y1="240" x2="100" y2="240" stroke="#7b68ee" stroke-width="2" />
+
+        <circle cx="150" cy="230" r="10" fill="#7b68ee" />
+        <line x1="140" y1="240" x2="160" y2="240" stroke="#7b68ee" stroke-width="2" />
+
+        <circle cx="210" cy="230" r="10" fill="#7b68ee" />
+        <line x1="200" y1="240" x2="220" y2="240" stroke="#7b68ee" stroke-width="2" />
+
+        <!-- Row of Rectangle and Circle -->
+        <rect x="30" y="270" width="20" height="20" fill="#ff6347" />
+        <circle cx="40" cy="280" r="8" fill="#ff6347" />
+
+        <rect x="90" y="270" width="20" height="20" fill="#ff6347" />
+        <circle cx="100" cy="280" r="8" fill="#ff6347" />
+
+        <rect x="150" y="270" width="20" height="20" fill="#ff6347" />
+        <circle cx="160" cy="280" r="8" fill="#ff6347" />
+
+        <rect x="210" y="270" width="20" height="20" fill="#ff6347" />
+        <circle cx="220" cy="280" r="8" fill="#ff6347" />
+
+        <!-- Polyline and Circle Rows -->
+        <polyline points="250,250 270,270 290,250" fill="none" stroke="#ffa07a" stroke-width="2" />
+        <circle cx="270" cy="260" r="10" fill="#ffa07a" />
+
+        <polyline points="250,310 270,330 290,310" fill="none" stroke="#ffa07a" stroke-width="2" />
+        <circle cx="270" cy="320" r="10" fill="#ffa07a" />
+
+        <!-- Extended Rows of Bottom Circles -->
+        <circle cx="30" cy="400" r="10" fill="#b3aaa3" />
+        <circle cx="90" cy="400" r="10" fill="#b3aaa3" />
+        <circle cx="150" cy="400" r="10" fill="#b3aaa3" />
+        <circle cx="210" cy="400" r="10" fill="#b3aaa3" />
+        <circle cx="270" cy="400" r="10" fill="#b3aaa3" />
+        <circle cx="330" cy="400" r="10" fill="#b3aaa3" />
+
     </svg>
 </body>
 </html>
